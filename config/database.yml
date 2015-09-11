@@ -1,0 +1,22 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: bootstrap_spike_development
+  username: <%= ENV["DEVELOPMENT_DATABASE_USERNAME"] %>
+  password: <%= ENV["DEVELOPMENT_DATABASE_PASSWORD"] %>
+
+test:
+  <<: *default
+  database: bootstrap_spike_test
+  username: <%= ENV["TEST_DATABASE_USERNAME"] %>
+  password: <%= ENV["TEST_DATABASE_PASSWORD"] %>
+
+production:
+  <<: *default
+  database: bootstrap_spike_production
+  username: <%= ENV['PROD_DATABASE_USERNAME'] %>
+  password: <%= ENV['PROD_DATABASE_PASSWORD'] %>
