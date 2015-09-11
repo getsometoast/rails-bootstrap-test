@@ -1,4 +1,4 @@
-namespace :bunder_audit do
+namespace :bundler_audit do
 
   desc 'Run bundler audit'
   task run: :environment do
