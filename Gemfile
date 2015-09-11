@@ -48,6 +48,8 @@ group :development, :test do
   gem 'dotenv-rails'
   gem 'rspec-rails'
   gem 'factory_girl_rails'
+  gem 'brakeman'
+  gem 'bundler-audit'
 end
 
 group :test do
