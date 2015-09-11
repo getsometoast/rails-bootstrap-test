@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a56b3b1-4416-43fe-a9b0-a6fdac70c822" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/bunder_audit.rake" afterPath="$PROJECT_DIR$/lib/tasks/bunder_audit.rake" />
-    </list>
+    <list default="true" id="5a56b3b1-4416-43fe-a9b0-a6fdac70c822" name="Default" comment="" />
     <ignored path="bootstrap_spike.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/tmp/" />
