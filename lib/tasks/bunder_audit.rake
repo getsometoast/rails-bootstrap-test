@@ -4,6 +4,7 @@ namespace :bundler_audit do
   task run: :environment do
     output = `bundle-audit update && bundle-audit check`
     puts output
+    fail unless $?.success?
   end
 
 end
